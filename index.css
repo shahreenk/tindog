@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 0.25em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75em 0 1em;
+}
+
+header img {
+  height: 30px;
+}
+
+#card {
+  position: relative;
+}
+
+.dog-info {
+  position: absolute;
+  color: white;
+  bottom: 15px;
+  left: 10px;
+}
+
+.dog-info span {
+  background-color: #00000091;
+  padding: 0 5px;
+}
+
+.dog-img {
+  width: 100%;
+  max-height: 75vh;
+  border-radius: 0.5em;
+}
+
+.badge {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  width: 150px;
+  transform: rotate(-30deg);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 0 8px #c0c0c0;
+  transition: all 0.2s ease-in-out;
+}
+
+button img {
+  height: 25px;
+}
+
+#reject-button:hover {
+  background-color: #ffe7ef;
+}
+
+#accept-button:hover {
+  background-color: #dbfff4;
+}
+
+.end-screen {
+  color: #ef233c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2em;
+  text-align: center;
+}
