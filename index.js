@@ -51,13 +51,15 @@ function changeProfile() {
         }, 1500);
     }
     else {
-        document.body.innerHTML = `
+        setTimeout(() => {
+            document.body.innerHTML = `
             <div class="container">
                 <div class="end-screen">
                     <h1>That's all the dogs in your area! 🐶</h1>
                 </div>
             </div>
         `
+        }, 1500)
     }
 }
 
